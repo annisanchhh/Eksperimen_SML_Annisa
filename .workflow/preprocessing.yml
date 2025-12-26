@@ -1,0 +1,41 @@
+name: Heart Data Preprocessing Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  preprocessing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run preprocessing
+        run: |
+          python - <<EOF
+          import pandas as pd
+          from preprocessing.Automate_Annisa import preprocess_heart_data
+
+          df = pd.read_csv("heart_raw/heart.csv")
+          preprocess_heart_data(df)
+          EOF
+
+      - name: Upload preprocessed dataset
+        uses: actions/upload-artifact@v4
+        with:
+          name: heart-preprocessing-latest
+          path: preprocessing/heart_preprocessing.csv
