@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/23e4a2c061f347d78e454e9032784ed5/artifacts
+end_time: 1767026779589
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23e4a2c061f347d78e454e9032784ed5
+run_name: RF_Tuning_DagsHub
+run_uuid: 23e4a2c061f347d78e454e9032784ed5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767026779540
+status: 4
+tags: []
+user_id: WINDOWS

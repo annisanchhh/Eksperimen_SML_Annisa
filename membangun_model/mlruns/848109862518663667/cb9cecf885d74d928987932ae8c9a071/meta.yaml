@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Kuliah/bootcamp/bootcamp%20DICODING/Eksperimen_SML_Annisa/membangun_model/mlruns/848109862518663667/cb9cecf885d74d928987932ae8c9a071/artifacts
+end_time: 1767024479219
+entry_point_name: ''
+experiment_id: '848109862518663667'
+lifecycle_stage: active
+run_id: cb9cecf885d74d928987932ae8c9a071
+run_name: RandomForest_Tuning
+run_uuid: cb9cecf885d74d928987932ae8c9a071
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767024473622
+status: 3
+tags: []
+user_id: WINDOWS
