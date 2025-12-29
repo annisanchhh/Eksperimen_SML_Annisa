@@ -1,0 +1,15 @@
+digest: 62a93f90
+name: dataset
+profile: '{"num_rows": 205, "num_elements": 2665}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "sex", "required": true}, {"type":
+  "long", "name": "cp", "required": true}, {"type": "long", "name": "trestbps", "required":
+  true}, {"type": "long", "name": "fbs", "required": true}, {"type": "long", "name":
+  "restecg", "required": true}, {"type": "long", "name": "thalach", "required": true},
+  {"type": "long", "name": "exang", "required": true}, {"type": "double", "name":
+  "oldpeak", "required": true}, {"type": "long", "name": "slope", "required": true},
+  {"type": "long", "name": "ca", "required": true}, {"type": "long", "name": "thal",
+  "required": true}, {"type": "long", "name": "age_Bin", "required": true}, {"type":
+  "long", "name": "chol_Bin", "required": true}]}'
+source: '{"tags": {"mlflow.user": "WINDOWS", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "49aeacb52f2916b3b5acb09e183bf516695d5242"}}'
+source_type: code
